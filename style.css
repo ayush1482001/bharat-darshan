@@ -1,0 +1,46 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ #headd, #headd2, #headd3{
+    height: 47vw;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+   
+    width: 13rem;
+    height: 6rem;}
+    nav ul li {
+        display: inline-block;
+       
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    nav{
+        position: absolute;
+
+        /* top: 2%; */
+        padding-top: 2%;
+        
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .carouselExampleAutoplaying{
+        position: static;
+
+    }
+    nav h2{
+       padding-left: 3%;
+        color: white;
+
+    }
+     
+     #discover{
+        text-align: center;
+        
+        margin: 15px;
+    } 
+   
+    
