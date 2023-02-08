@@ -146,13 +146,13 @@
      max-width: 500px;
      width: 100%;
      position: absolute;
-     top: 50%;
+     top: 30%;
      right: 0;
-     transform: translate(0, -50%);
+     /* transform: translate(0, -50%); */
      background-color: rgba(0, 86, 168, 0.8);
      color: #fff;
      animation-name: fadeInRightBig;
-     animation-duration: 3s;
+     animation-duration: 1s;
      
      padding: 1rem;
 
@@ -162,7 +162,7 @@
  @keyframes fadeInRightBig {
      0% {
          opacity: 0;
-         transform: translateX(150px);
+         transform: translateX(500px);
      }
 
      100% {
@@ -198,8 +198,18 @@
  }
 
 
- .place-d{
+ .place-h{
     margin-top: 20px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     text-align: justify;
+    font-size: 21px;
+    font-family: math;
+    font-weight: 600;
+ }
+ .place-c{
+    /* margin-top: 20px;
+    padding: 10px 0; */
+    text-align: justify;
+    font-family: emoji;
+    font-size: large;
  }
