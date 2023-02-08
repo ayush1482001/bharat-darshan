@@ -15,19 +15,18 @@
         }
 
         body{
-            background: linear-gradient(to right, rgb(22, 178, 210), rgb(255, 146, 164));
+            background-image: url(https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg);
         }
 
         .container-fluid{
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 30px 0;
+            min-height: 100vh;
         }
 
         form{
-            width: 500px;
+            width: 400px;
             border: 1px solid #000000;
             box-shadow: 0px 0px 4px 4px #000000;
             padding: 15px;
@@ -36,7 +35,6 @@
         label{
             color: #000000;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-shadow: 0px 1px 3px #000000;
             font-size: 20px;
             font-weight: bold;
         }
@@ -44,7 +42,16 @@
         .btn{
             display: flex;
             justify-content: center !important;
+            padding: 10px 50px;
+            text-align: center;
         }
+
+        @media screen and (max-width: 480px) {
+            form{
+                width: 260px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -54,32 +61,32 @@
                 <label for="name">Name</label>
                 <input type="email" class="form-control" id="name" title="Enter valid name" placeholder="Enter name" required />
             </div>
-            <br />
+            <!-- <br /> -->
             <div class="form-group">
-                <label for="age">Age</label>
-                <input type="text" class="form-control" id="age" title="Enter your age" placeholder="Enter age" required />
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" id="dob" title="Enter your Date of Birth" placeholder="Enter Date of Birth" required />
             </div>
-            <br />
+            <!-- <br /> -->
             <div class="form-group">
                 <label for="number">Number</label>
                 <input type="tel" class="form-control" id="number" pattern="[0-9]{10}" title="Enter numberic values only" minlength="10" maxlength="10" placeholder="Enter phone number" required />
             </div>
-            <br />
+            <!-- <br /> -->
             <div class="form-group">
                 <label for="city">City</label>
                 <input type="text" class="form-control" id="city" title="Enter valid city name" placeholder="Enter your city name" required />
             </div>
-            <br />
+            <!-- <br /> -->
             <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" title="Enter correct email id" placeholder="Enter email" required />
             </div>
-            <br />
+            <!-- <br /> -->
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" minlength="8" title="Password minimum length is 8" placeholder="Enter password" required />
             </div>
-            <br />
+            <!-- <br /> -->
             <div class="btn"><button type="submit" class="btn btn-primary">Submit</button></div>
         </form>
     </div>
