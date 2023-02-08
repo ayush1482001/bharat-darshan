@@ -116,6 +116,7 @@
       min-height: 150px;
       background-color: grey;
       text-align: center;
+      color: rgb(25, 24, 24);
       
     }
     #footer ul li{
@@ -134,7 +135,7 @@
     #team{
      color: white;
      font-weight: 900;
-     text-shadow: 1px 1px 3px rgb(0, 162, 255);
+     text-shadow: 1px 1px 5px rgb(0, 119, 255);
      
     }
     .MUST-VISIT img{
