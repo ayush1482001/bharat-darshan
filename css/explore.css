@@ -193,6 +193,9 @@
          max-width: 100%;
      }
  }
+ .row{
+    margin-top: 30px;
+ }
 
 
  .place-d{
