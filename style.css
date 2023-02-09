@@ -1,156 +1,199 @@
- *{
-    margin: 0;
-    padding: 0;
+ * {
+   margin: 0;
+   padding: 0;
  }
- #headd, #headd2, #headd3{
-    height: 47vw;
-    
-}
-.carousel-control-next-icon, .carousel-control-prev-icon {
-   
-    width: 13rem;
-    height: 6rem;}
-    nav ul li {
-        display: inline-block;
-       
-        margin-right: 20px;
-        font-size: 18px;
-    }
-    nav{
-        position: absolute;
 
-        /* top: 2%; */
-        padding-top: 2%;
-        
-        background: transparent;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .carouselExampleAutoplaying{
-        position: static;
+ #headd,
+ #headd2,
+ #headd3 {
+   height: 47vw;
 
-    }
-    nav h2{
-       padding-left: 3%;
-        color: white;
+ }
 
-    }
-     
-     #discover{
-        text-align: center;
-        
-        margin: 15px;
-    } 
-    .carousel-control-next, .carousel-control-prev{
-            
-        height: 12% !important;
-        width: 12% !important;
-        margin-top: 19% !important;
-    }
-   
-    #must{
-        background-image:linear-gradient(rgba(0, 221, 255, 0.384), rgba(0, 255, 225, 0.466)),url(./images/pexels-andrei-tanase-1271619.jpg);
-        background-size: cover;
-      
-    
-        min-height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-      
-      #must h1{
-        text-align: center;
-        color: rgb(255, 255, 255);
-        /* font-family: monospace; */
-        /* font-weight: 1000; */
-        margin-bottom: 5%;
-    
-    
-      }
-      #must{
-        min-height: 700px;
-        background-color: rgba(0, 17, 253, 0.83);
-      }
-      
-      h1{
-        margin: 45px auto 20px;
-        font-weight: 800;
-        letter-spacing: 0.23em;
-        font-size: 2.25rem;
-        text-align: center;
-        text-transform: uppercase;
-      }
-      .heading{
-        /* background-color: yellow; */
-        
-        border-radius: 11px;
-        
-      }
-      
-      .tex {
-        background-color: #1a1f2ba1;
-        padding: 5px 25px;
-        
-        border-radius: 8px;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(45, 49, 50, 0.571);
-       font-family: sans-serif;
-     color: rgb(255, 255, 255);
-       
-    
-      }
-      .carousel-item h5{
-      margin-bottom: 20px;
-      font-size: 30px;
-    }
-    .carousel-item p{
-      font-size: 20px;
-      text-shadow: 1px 1px 2px black;
-    
-    }
-    #footer{
-      min-height: 150px;
-      background-color: grey;
-      text-align: center;
-      
-    }
-    #footer ul li{
-      display: inline-block;
-      margin-left: 20px;
-      font-weight: 700;
-    }
-    #footer img{
-      height: 20px;
-      width: 20px;
-    }
-    #footer h3{
-      margin-top: 25px;
-      font-weight: 600;
-    }
-    #team{
-     color: white;
-     font-weight: 900;
-     text-shadow: 1px 1px 3px rgb(0, 162, 255);
-     
-    }
-    .MUST-VISIT img{
-      width: 350px;
-      height: 350px;
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      
-      
-    }
-    .MUST-VISIT{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 50px;
-      margin-bottom: 35px;
-      
-    }
+ .carousel-control-next-icon,
+ .carousel-control-prev-icon {
+
+   width: 13rem;
+   height: 6rem;
+ }
+
+ nav ul li {
+   display: inline-block;
+
+   margin-right: 20px;
+   font-size: 18px;
+ }
+
+ nav {
+   position: absolute;
+
+   /* top: 2%; */
+   padding-top: 2%;
+
+   background: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .carouselExampleAutoplaying {
+   position: static;
+
+ }
+
+ nav h2 {
+   padding-left: 3%;
+   color: white;
+
+ }
+
+ #discover {
+   text-align: center;
+
+   margin: 15px;
+ }
+
+ .carousel-control-next,
+ .carousel-control-prev {
+
+   height: 12% !important;
+   width: 12% !important;
+   margin-top: 19% !important;
+ }
+
+ #must {
+   background-image: linear-gradient(rgba(0, 221, 255, 0.384), rgba(0, 255, 225, 0.466)), url(./images/pexels-andrei-tanase-1271619.jpg);
+   background-size: cover;
+
+
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+
+
+ #must h1 {
+   text-align: center;
+   color: rgb(255, 255, 255);
+   /* font-family: monospace; */
+   /* font-weight: 1000; */
+   margin-bottom: 5%;
+
+
+ }
+
+ #must {
+   min-height: 700px;
+   background-color: rgba(0, 17, 253, 0.83);
+ }
+
+ h1 {
+   margin: 45px auto 20px;
+   font-weight: 800;
+   letter-spacing: 0.23em;
+   font-size: 2.25rem;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ .heading {
+   /* background-color: yellow; */
+
+   border-radius: 11px;
+
+ }
+
+ .tex {
+   background-color: #1a1f2ba1;
+   padding: 5px 25px;
+
+   border-radius: 8px;
+   font-weight: 600;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 3px rgba(45, 49, 50, 0.571);
+   font-family: sans-serif;
+   color: rgb(255, 255, 255);
+
+
+ }
+
+ .carousel-item h5 {
+   margin-bottom: 20px;
+   font-size: 30px;
+ }
+
+ .carousel-item p {
+   font-size: 20px;
+   text-shadow: 1px 1px 2px black;
+
+ }
+
+ #footer {
+   min-height: 150px;
+   background-color: grey;
+   text-align: center;
+
+ }
+
+ #footer ul li {
+   display: inline-block;
+   margin-left: 20px;
+   font-weight: 700;
+ }
+
+ #footer img {
+   height: 20px;
+   width: 20px;
+ }
+
+ #footer h3 {
+   margin-top: 25px;
+   font-weight: 600;
+ }
+
+ #team {
+   color: white;
+   font-weight: 900;
+   text-shadow: 1px 1px 3px rgb(0, 162, 255);
+
+ }
+
+ .MUST-VISIT img {
+   width: 350px;
+   height: 350px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+
+
+ }
+
+ .MUST-VISIT {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 50px;
+   margin-bottom: 35px;
+
+ }
+
+ .dropdown-main {
+   position: relative;
+   display: inline-block;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+ }
+
+ .dropdown-content a:hover {
+   background-color: transparent;
+ }
+
+ .dropdown-main:hover .dropdown-content {
+   display: block;
+ }
