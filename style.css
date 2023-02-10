@@ -191,9 +191,21 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
+  left: -90px;
   background-color: #f1f1f1;
   min-width: 320px;
   height: 200px;
+}
+
+@media (max-width: 480px){
+  .dropdown-content{
+    left: -40px !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 750px){
+  .dropdown-content{
+    left: -50px;
+  }
 }
 
 .dropdown-content a:hover {
