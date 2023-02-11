@@ -198,7 +198,7 @@
 
 
  .row {
-     margin-top: 30px;
+     margin-top: 10px;
  }
 
 
@@ -246,6 +246,36 @@
  @media (min-width: 481px) and (max-width: 750px) {
      .dropdown-content {
          left: -50px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     #footer ul {
+         margin-left: -65px;
+     }
+
+     #footer ul {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+ }
+
+ @media (min-width: 481px) and (max-width: 750px) {
+     #footer ul {
+         margin-left: -50px;
+     }
+
+     #footer ul {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+ }
+
+ @media (min-width: 750px) and (max-width: 800px) {
+     #footer ul {
+         margin-left: -50px;
      }
  }
 
