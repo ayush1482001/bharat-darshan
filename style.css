@@ -451,21 +451,39 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
-  #footer{
-      font-size: 10px;
+  
+  #footer ul {
+    margin-left: -65px;
   }
 
-  #footer ul{
-     padding-left: 1px;
+  #footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+
+  #footer ul {
+    margin-left: -50px;
   }
 
-  #footer:last-child ul{
-      margin-right:20px;
+  #footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+}
 
-  #footer ul{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
+@media (min-width: 801px) and (max-width: 1024px) {
+  #footer ul {
+      margin-left: -70px;
+  }   
+}
+
+@media (min-width: 1024px) {
+  #footer ul {
+      margin-left: -70px;
+  }   
 }
