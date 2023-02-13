@@ -77,7 +77,7 @@ nav h2 {
 }
 
 #must {
-  background-image: linear-gradient(rgba(0, 221, 255, 0.384), rgba(0, 255, 225, 0.466)), url(./images/pexels-andrei-tanase-1271619.jpg);
+  /* background-image: linear-gradient(rgba(0, 221, 255, 0.384), rgba(0, 255, 225, 0.466)), url(./images/pexels-andrei-tanase-1271619.jpg); */
   background-size: cover;
 
 
@@ -85,6 +85,8 @@ nav h2 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 700px;
+  background-color: #bbb;
 }
 
 
@@ -98,10 +100,7 @@ nav h2 {
 
 }
 
-#must {
-  min-height: 700px;
-  background-color: rgba(0, 17, 253, 0.83);
-}
+
 
 h1 {
   margin: 45px auto 20px;
@@ -426,6 +425,7 @@ p {
   border-radius: 10px;
   perspective: 1000px;
   overflow: hidden;
+  box-shadow: 0 0 1px 1px maroon;
 }
 
 .box-inner {
@@ -450,6 +450,13 @@ p {
   backface-visibility: hidden;
 }
 
+.box-back h2 {
+  margin-bottom: 25px;
+  margin-top: auto;
+  color: rgb(233 224 224);
+  text-shadow: 5px 5px 10px black;
+}
+
 .box-front {
   background-color: #bbb;
   color: black;
@@ -461,7 +468,7 @@ p {
 }
 
 .box-back {
-  background-image: url("./images/colorful-abstract-nebula-space-background.jpg");
+  /* background-image: url("./images/colorful-abstract-nebula-space-background.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
