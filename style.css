@@ -223,6 +223,8 @@ h1 {
 }
 
 .dropdown-main:hover .dropdown-content {
+  margin-top: 5px !important;
+  left: -241px;
   display: block;
 }
 
