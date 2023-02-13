@@ -523,3 +523,20 @@ p {
     margin-left: -70px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 614px){
+  .flip-box{
+    margin-bottom: 20px !important;
+    width: 375px;
+    height: 220px;
+  }
+  .margin-bottom{
+    margin-bottom: 2px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1199px){
+  .margin-bottom{
+    margin-bottom: 20px;
+  }
+}
