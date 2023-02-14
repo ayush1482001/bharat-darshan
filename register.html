@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
 
-        body{
+        body {
             background-image: url(https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg);
         }
 
-        .container-fluid{
+        .container-fluid {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
         }
 
-        form{
+        form {
             width: 400px;
             border: 1px solid #000000;
             box-shadow: 0px 0px 4px 4px #000000;
             padding: 15px;
         }
 
-        label{
+        label {
             color: #000000;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 20px;
             font-weight: bold;
         }
 
-        .btn{
+        .btn {
             display: flex;
             justify-content: center !important;
             padding: 10px 50px;
@@ -47,54 +51,65 @@
         }
 
         @media screen and (max-width: 480px) {
-            form{
+            form {
                 width: 260px;
             }
         }
-
+        label span{
+            color: red;
+        }
     </style>
 </head>
+
 <body>
     <div class="container-fluid align-items-center">
         <form action="./confirmation.html" method="get">
             <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" title="Enter valid name" placeholder="Enter name" required />
+                <label for="name">Name<span>*</span></label>
+                <input type="text" class="form-control" id="name" title="Enter valid name" placeholder="Enter name"
+                    required />
             </div>
             <!-- <br /> -->
             <div class="form-group">
-                <label for="dob">Date of Birth</label>
-                <input type="date" class="form-control" id="dob" title="Enter your Date of Birth" placeholder="Enter Date of Birth" required />
+                <label for="dob">Date of Birth<span>*</span></label>
+                <input type="date" class="form-control" id="dob" title="Enter your Date of Birth"
+                    placeholder="Enter Date of Birth" required />
             </div>
             <!-- <br /> -->
             <div class="form-group">
-                <label for="number">Number</label>
-                <input type="tel" class="form-control" id="number" pattern="[0-9]{10}" title="Enter numberic values only" minlength="10" maxlength="10" placeholder="Enter phone number" required />
+                <label for="number"> Contact Number<span>*</span></label>
+                <input type="tel" class="form-control" id="number" pattern="[0-9]{10}"
+                    title="Enter numberic values only" minlength="10" maxlength="10" placeholder="Enter phone number"
+                    required />
             </div>
             <!-- <br /> -->
             <div class="form-group">
-                <label for="city">City</label>
-                <input type="text" class="form-control" id="city" title="Enter valid city name" placeholder="Enter your city name" required />
+                <label for="city">City<span>*</span></label>
+                <input type="text" class="form-control" id="city" title="Enter valid city name"
+                    placeholder="Enter your city name" required />
             </div>
             <!-- <br /> -->
             <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" title="Enter correct email id" placeholder="Enter email" required />
+                <label for="exampleInputEmail1">Email<span>*</span></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" title="Enter correct email id"
+                    placeholder="Enter email" required />
             </div>
             <!-- <br /> -->
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" minlength="8" title="Password minimum length is 8" placeholder="Enter password" required />
+                <label for="exampleInputPassword1">Password<span>*</span></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" minlength="8"
+                    title="Password minimum length is 8" placeholder="Enter password" required />
             </div>
             <!-- <br /> -->
             <div class="btn"><button type="submit" class="btn btn-primary">Submit</button></div>
 
             <div class="text-center">
-                
+
                 <p class="small fw-bold mt-2 pt-1 mb-0">Already have an account? <a href="./login.html"
-                    class="link-danger">Login</a></p>
-              </div>
+                        class="link-danger">Login</a></p>
+            </div>
         </form>
     </div>
 </body>
+
 </html>

@@ -62,7 +62,7 @@ nav h2 {
 } */
 
 
-#discover {
+.discover {
   text-align: center;
 
   margin: 15px;
@@ -145,7 +145,7 @@ h1 {
 
 #footer {
   min-height: 150px;
-  background-color: grey;
+  background-color: #bbb;
   text-align: center;
 
 }
@@ -223,6 +223,8 @@ h1 {
 }
 
 .dropdown-main:hover .dropdown-content {
+  margin-top: 5px !important;
+  left: -241px;
   display: block;
 }
 
@@ -265,7 +267,7 @@ h1 {
 }
 
 #footer {
-  background-color: grey;
+  background-color: #bbb;
   /* box-shadow: 2px 2px 10px rgb(15, 15, 15) inset; */
   cursor: pointer;
 }
