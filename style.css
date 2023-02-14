@@ -30,7 +30,7 @@ nav ul li {
   text-shadow: 5px 5px 10px black;
 }
 
-.dropdown-item{
+.dropdown-item {
   text-shadow: none !important;
 }
 
@@ -172,6 +172,7 @@ h1 {
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
+
   #headd,
   #headd2,
   #headd3,
@@ -183,6 +184,7 @@ h1 {
   nav ul {
     margin-top: 0px !important;
   }
+
   nav ul li {
     font-size: 12px;
     margin-right: 10px;
@@ -196,6 +198,7 @@ h1 {
 }
 
 @media (max-width: 380px) {
+
   #headd,
   #headd2,
   #headd3,
@@ -213,7 +216,8 @@ h1 {
     padding-left: 1%;
     font-size: 12px;
   }
-  nav ul{
+
+  nav ul {
     margin-top: 0px !important;
   }
 
@@ -238,7 +242,8 @@ h1 {
     padding-left: 2%;
     font-size: 25px;
   }
-  nav ul{
+
+  nav ul {
     margin-top: 0px !important;
   }
 
@@ -253,7 +258,8 @@ h1 {
     left: -185px !important;
     width: 280px;
   }
-  nav ul{
+
+  nav ul {
     margin-top: 0px !important;
   }
 }
@@ -412,6 +418,7 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+
   html,
   body {
     width: 100%;
@@ -551,6 +558,7 @@ p {
     margin-bottom: 20px;
   }
 }
+
 nav img {
   height: 9vw;
   width: 19vw;
