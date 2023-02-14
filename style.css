@@ -33,7 +33,7 @@ nav ul li {
 nav {
   position: absolute;
 
-  top: 2%;
+  top: -2%;
   padding-top: 2%;
 
   background: transparent;
@@ -584,6 +584,6 @@ p {
   }
 }
 nav h2 img{
-  height: 100px;
-  width: 300px;
+  height: 9vw;
+  width: 19vw;
 }
