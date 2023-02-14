@@ -28,6 +28,7 @@ nav ul li {
   margin-right: 20px;
   font-size: 18px;
   color: #ffffff;
+  text-shadow: 5px 5px 10px black;
 }
 
 nav {
@@ -50,7 +51,7 @@ nav h2 {
 
 }
 
-nav ul{
+nav ul {
   margin-top: -15px;
 }
 
@@ -162,21 +163,16 @@ h1 {
   margin-bottom: 35px;
 }
 
-.dropdown-main {
-  position: relative;
-  display: inline-block;
-}
-
 .dropdown-content {
-  display: none;
   position: absolute;
+  column-count: 2;
+  column-gap: 50px;
   left: -100px !important;
   background-color: #f1f1f1;
-  min-width: 280px;
-  height: 200px;
+  width: 280px;
 }
 
-@media (min-width: 380px) and (max-width: 480px) {
+@media (min-width: 381px) and (max-width: 480px) {
 
   #headd,
   #headd2,
@@ -201,17 +197,13 @@ h1 {
   }
 
   .dropdown-content {
-    min-width: 158px !important;
-    height: 150px !important;
-    left: -80px !important;
-  }
-
-  .dropdown-main:hover .dropdown-content {
-    width: 159px !important;
+    column-gap: 30px;
+    width: 200px !important;
+    left: -145px !important;
   }
 }
 
-@media (max-width: 379px) {
+@media (max-width: 380px) {
 
   #headd,
   #headd2,
@@ -237,13 +229,9 @@ h1 {
   }
 
   .dropdown-content {
-    min-width: 158px !important;
-    height: 145px !important;
-    left: -90px !important;
-  }
-
-  .dropdown-main:hover .dropdown-content {
-    width: 158px !important;
+    column-gap: 20px;
+    width: 180px !important;
+    left: -100px !important;
   }
 }
 
@@ -263,29 +251,20 @@ h1 {
   }
 
   .dropdown-content {
-    min-width: 190px !important;
-    height: 170px !important;
-  }
-
-  .dropdown-main:hover .dropdown-content {
-    width: 180px !important;
+    left: -135px !important;
+    width: 240px;
   }
 }
 
-@media (min-width: 481px) and (max-width: 750px) {
+@media (min-width: 611px) and (max-width: 750px) {
   .dropdown-content {
-    left: -50px;
+    left: -185px !important;
+    width: 280px;
   }
 }
 
 .dropdown-content a:hover {
   background-color: transparent;
-}
-
-.dropdown-main:hover .dropdown-content {
-  width: 220px;
-  left: -60px;
-  display: block;
 }
 
 #incredible {
