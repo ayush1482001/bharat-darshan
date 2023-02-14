@@ -53,7 +53,7 @@ nav img {
 }
 
 nav ul {
-  margin-top: -15px;
+  margin-top: 15px;
 }
 
 .discover {
@@ -181,7 +181,7 @@ h1 {
   }
 
   nav ul {
-    margin-top: 10px !important;
+    margin-top: 0px !important;
   }
   nav ul li {
     font-size: 12px;
@@ -213,6 +213,9 @@ h1 {
     padding-left: 1%;
     font-size: 12px;
   }
+  nav ul{
+    margin-top: 0px !important;
+  }
 
   .dropdown-content {
     column-gap: 20px;
@@ -235,6 +238,9 @@ h1 {
     padding-left: 2%;
     font-size: 25px;
   }
+  nav ul{
+    margin-top: 0px !important;
+  }
 
   .dropdown-content {
     left: -135px !important;
@@ -246,6 +252,9 @@ h1 {
   .dropdown-content {
     left: -185px !important;
     width: 280px;
+  }
+  nav ul{
+    margin-top: 0px !important;
   }
 }
 
