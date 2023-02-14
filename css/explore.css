@@ -46,7 +46,7 @@ nav h2 {
 }
 
 nav ul{
-  margin-top: -15px;
+  margin-top: 0px !important;
 }
 
 .carousel-control-next,
