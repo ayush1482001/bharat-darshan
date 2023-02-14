@@ -309,7 +309,7 @@ h1 {
 
 #photo {
   margin-top: 60px;
-  height: 120vh;
+  height: 100vh;
   background-image: url(./images/pexels-mayur-rawte-1583244.jpg);
   background-size: cover;
   background-position: center center;
@@ -614,4 +614,8 @@ p {
   .margin-bottom{
     margin-bottom: 20px;
   }
+}
+nav h2 img{
+  height: 100px;
+  width: 300px;
 }
