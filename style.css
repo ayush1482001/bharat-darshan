@@ -28,6 +28,7 @@ nav ul li {
   font-weight: 600;
   margin-right: 20px;
   font-size: 18px;
+  margin-top: 15px;
 }
 
 nav {
@@ -39,7 +40,8 @@ nav {
   background: transparent;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
+  
 }
 
 .carouselExampleAutoplaying {
@@ -47,7 +49,7 @@ nav {
 
 }
 
-nav h2 {
+nav img {
   padding-left: 3%;
   color: white;
 
@@ -74,7 +76,12 @@ nav h2 {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 700px;
-  background-color: #bbb;
+  background-color: #d2d1d4;
+  /* background-image:linear-gradient(rgb(5 116 178 / 50%),rgb(5 141 231 / 50%)),url(./images/pexels-andrei-tanase-1271619.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 
@@ -185,19 +192,14 @@ h1 {
     height: 60vw;
   }
 
-  nav {
-    top: 0% !important;
-  }
-
+  nav ul {
+    margin-top: 10px !important;
+  }     
   nav ul li {
     font-size: 12px;
     margin-right: 10px;
   }
 
-  nav h2 {
-    padding-left: 2%;
-    font-size: 20px;
-  }
 
   .dropdown-content {
     min-width: 158px !important;
@@ -220,19 +222,15 @@ h1 {
 
   }
 
-  nav {
-    top: -1% !important;
-  }
-
   nav ul li {
     font-size: 9px;
     margin-right: 6px;
-  }
+  } 
 
-  nav h2 {
+   nav h2 {
     padding-left: 1%;
     font-size: 12px;
-  }
+  } 
 
   .dropdown-content {
     min-width: 158px !important;
@@ -250,15 +248,15 @@ h1 {
     top: 0% !important;
   }
 
-  nav ul li {
+   nav ul li {
     font-size: 14px;
     margin-right: 10px;
-  }
+  } 
 
-  nav h2 {
+   nav h2 {
     padding-left: 2%;
     font-size: 25px;
-  }
+  } 
 
   .dropdown-content {
     min-width: 190px !important;
@@ -327,22 +325,25 @@ h1 {
   cursor: pointer;
 }
 
-.extra {
+#extra {
   height: 35px;
-  background-color: rgb(0, 119, 255);
-  box-shadow: 1px 1px 5px black;
+  background-color: rgb(210, 210, 214);
+  /* box-shadow: 1px 1px 1px rgb(164, 161, 161); */
 }
 
-.ghoda {
+/* .ghoda {
   margin-top: 20px;
   height: 30px;
   background-color: rgba(0, 0, 0, 0.382);
+} */
+.card{
+  width: 342px !important;
 }
 
 #cardd ul {
   overflow: auto;
   white-space: nowrap;
-  margin: 3% 0%;
+  margin: 1% 0%;
 }
 
 #cardd li {
@@ -353,7 +354,8 @@ h1 {
 
 #cardd h2 {
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 5%;
+  
   padding-left: 20px;
 }
 
@@ -368,9 +370,9 @@ h1 {
 
 #cardd li:hover {
 
-  -ms-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .flip-box {
@@ -470,7 +472,7 @@ p {
   border-radius: 10px;
   perspective: 1000px;
   overflow: hidden;
-  box-shadow: 0 0 1px 1px maroon;
+  box-shadow: 2px 2px 4px #53595e;;
 }
 
 .box-inner {
@@ -583,7 +585,7 @@ p {
     margin-bottom: 20px;
   }
 }
-nav h2 img{
+nav img{
   height: 9vw;
   width: 19vw;
 }
