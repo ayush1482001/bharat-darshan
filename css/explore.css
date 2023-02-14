@@ -45,6 +45,10 @@ nav h2 {
   color: white;
 }
 
+nav ul{
+  margin-top: -15px;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   height: 12% !important;
