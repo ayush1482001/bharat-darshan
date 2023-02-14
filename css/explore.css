@@ -45,8 +45,8 @@ nav h2 {
   color: white;
 }
 
-nav ul{
-  margin-top: 0px !important;
+nav ul {
+  margin-top: -25px !important;
 }
 
 .carousel-control-next,
