@@ -50,6 +50,10 @@ nav h2 {
 
 }
 
+nav ul{
+  margin-top: -15px;
+}
+
 .discover {
   text-align: center;
   margin: 15px;
