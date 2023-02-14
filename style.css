@@ -9,7 +9,6 @@
 #headd4,
 #headd5 {
   height: 47vw;
-
 }
 
 body {
@@ -38,8 +37,6 @@ nav {
   background: transparent;
   display: flex;
   justify-content: space-between;
-  
-  
 }
 
 .carouselExampleAutoplaying {
@@ -49,7 +46,6 @@ nav {
 nav img {
   padding-left: 3%;
   color: white;
-
 }
 
 nav ul {
@@ -63,7 +59,6 @@ nav ul {
 
 .carousel-control-next,
 .carousel-control-prev {
-
   height: 12% !important;
   width: 12% !important;
   margin-top: 19% !important;
@@ -77,13 +72,7 @@ nav ul {
   background-repeat: no-repeat;
   min-height: 700px;
   background-color: #d2d1d4;
-  /* background-image:linear-gradient(rgb(5 116 178 / 50%),rgb(5 141 231 / 50%)),url(./images/pexels-andrei-tanase-1271619.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
-
 
 #must h1 {
   text-align: center;
@@ -179,7 +168,6 @@ h1 {
 }
 
 @media (min-width: 381px) and (max-width: 480px) {
-
   #headd,
   #headd2,
   #headd3,
@@ -190,12 +178,11 @@ h1 {
 
   nav ul {
     margin-top: 10px !important;
-  }     
+  }
   nav ul li {
     font-size: 12px;
     margin-right: 10px;
   }
-
 
   .dropdown-content {
     column-gap: 30px;
@@ -205,25 +192,23 @@ h1 {
 }
 
 @media (max-width: 380px) {
-
   #headd,
   #headd2,
   #headd3,
   #headd4,
   #headd5 {
     height: 60vw;
-
   }
 
   nav ul li {
     font-size: 9px;
     margin-right: 6px;
-  } 
+  }
 
-   nav h2 {
+  nav h2 {
     padding-left: 1%;
     font-size: 12px;
-  } 
+  }
 
   .dropdown-content {
     column-gap: 20px;
@@ -237,15 +222,15 @@ h1 {
     top: 0% !important;
   }
 
-   nav ul li {
+  nav ul li {
     font-size: 14px;
     margin-right: 10px;
-  } 
+  }
 
-   nav h2 {
+  nav h2 {
     padding-left: 2%;
     font-size: 25px;
-  } 
+  }
 
   .dropdown-content {
     left: -135px !important;
@@ -308,16 +293,6 @@ h1 {
 #extra {
   height: 35px;
   background-color: rgb(210, 210, 214);
-  /* box-shadow: 1px 1px 1px rgb(164, 161, 161); */
-}
-
-/* .ghoda {
-  margin-top: 20px;
-  height: 30px;
-  background-color: rgba(0, 0, 0, 0.382);
-} */
-.card{
-  width: 342px !important;
 }
 
 .card ul {
@@ -329,13 +304,13 @@ h1 {
 .card li {
   margin: 15px;
   display: inline-block;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .card h2 {
   font-weight: 700;
   margin-top: 5%;
-  
+
   padding-left: 20px;
 }
 
@@ -349,7 +324,6 @@ h1 {
 }
 
 .card li:hover {
-
   -ms-transform: scale(1.02);
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
@@ -399,7 +373,6 @@ h1 {
   margin-block-start: -1.67em;
   color: rgb(233 224 224);
   text-shadow: 5px 5px 10px black;
-
 }
 
 .flip-box-back {
@@ -426,7 +399,6 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-
   html,
   body {
     width: 100%;
@@ -453,7 +425,7 @@ p {
   border-radius: 10px;
   perspective: 1000px;
   overflow: hidden;
-  box-shadow: 2px 2px 4px #53595e;;
+  box-shadow: 2px 2px 4px #53595e;
 }
 
 .box-inner {
@@ -566,7 +538,7 @@ p {
     margin-bottom: 20px;
   }
 }
-nav img{
+nav img {
   height: 9vw;
   width: 19vw;
 }
