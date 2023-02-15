@@ -181,8 +181,12 @@ h1 {
     height: 60vw;
   }
 
+  nav img {
+    margin-top: 7px !important;
+  }
+
   nav ul {
-    margin-top: 0px !important;
+    margin-top: 3px !important;
   }
 
   nav ul li {
@@ -207,6 +211,10 @@ h1 {
     height: 60vw;
   }
 
+  nav img {
+    margin-top: 7px !important;
+  }
+
   nav ul li {
     font-size: 9px;
     margin-right: 6px;
@@ -218,7 +226,7 @@ h1 {
   }
 
   nav ul {
-    margin-top: 0px !important;
+    margin-top: 3px !important;
   }
 
   .dropdown-content {
@@ -260,7 +268,7 @@ h1 {
   }
 
   nav ul {
-    margin-top: 0px !important;
+    margin-top: 2px !important;
   }
 }
 
