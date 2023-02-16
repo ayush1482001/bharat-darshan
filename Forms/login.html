@@ -11,17 +11,16 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <style>
-
     .h-custom {
       height: 100%;
     }
 
-    .form-control{
+    .form-control {
       width: 400px !important;
     }
 
-    .btn{
-      padding-left: 40px; 
+    .btn {
+      padding-left: 40px;
       padding-right: 40px;
     }
 
@@ -30,14 +29,23 @@
         height: 100%;
       }
 
-      .form-control{
-      width: 100% !important;
-    }
+      .form-control {
+        width: 100% !important;
+      }
     }
 
-    label{
+    label {
       font-size: 20px;
       font-weight: 500;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    span {
+      color: red;
     }
   </style>
 </head>
@@ -54,25 +62,25 @@
           <form>
             <div class="d-flex flex-column align-items-center justify-content-center justify-content-lg-start">
 
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-              <label class="form-label" for="form3Example3">Email address</label>
-              <input type="email" id="form3Example3" class="form-control form-control-lg"
-                placeholder="Enter Email" />
-            </div>
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Email address<span>*</span></label>
+                <input type="email" id="form3Example3" class="form-control form-control-lg" placeholder="Enter Email"
+                  required />
+              </div>
 
-            <!-- Password input -->
-            <div class="form-outline mb-3">
-              <label class="form-label" for="form3Example4">Password</label>
-              <input type="password" id="form3Example4" class="form-control form-control-lg"
-                placeholder="Enter password" />
-            </div>
+              <!-- Password input -->
+              <div class="form-outline mb-3">
+                <label class="form-label" for="form3Example4">Password<span>*</span></label>
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter password" required />
+              </div>
 
-            <div class="text-center">
-              <button type="button" class="btn btn-primary btn-lg">Login</button>
-              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="./register.html"
-                  class="link-danger">Register</a></p>
-            </div>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary btn-lg"><a href="../index.html">Login</a></button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="./register.html"
+                    class="link-danger">Register</a></p>
+              </div>
           </form>
         </div>
       </div>
