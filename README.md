@@ -1,7 +1,11 @@
 < Tour India >
 -------------------
 
-Description:- This is a tourism website for India, purpose is to develop India tourism sector. It has eye-catching design made by CSS which makes it more attractive and website fully responsice using media queries and bootstrap.
+Description:- Tour India is a tourism website where you can search for top tourist places, holiday     destinations or trending travel destination of India. 
+Here you can explore the road-map of that particular location and also can check the weather of that particular area so that you can plan your trip with ease.
+As Tour India is representing the India in front of those people who do not know much about India so, we make sure that Tour India also contains the places which shows glorious history of India, rich culture of India, diversity of India and about the great architecture of Indian heritage.
+Tour India contains destination for every type of travellers, you can go to the mountains, you can ride a camel in the desert, you can enjoy sun bath at beaches, you can enjoy trekking with the beautiful views of the Himalayas etc.
+
 -------------------------------------------------------------------
 
 Features:-  Sign-up and Login Page
