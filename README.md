@@ -1,4 +1,4 @@
-< Tour India >
+ Tour India 
 -------------------
 
 Description:- Tour India is a tourism website where you can search for top tourist places, holiday     destinations or trending travel destination of India. 
@@ -8,7 +8,9 @@ Tour India contains destination for every type of travellers, you can go to the 
 
 -------------------------------------------------------------------
 
-Features:-  Sign-up and Login Page
+Features:-  
+
+            Sign-up and Login Page
             Responsive Page Design
             Hover and transform is used for animation
             Live weather updates and maps are included using iframes.
@@ -18,6 +20,7 @@ Tech used:- HTML, CSS and Bootstrap.
 -------------------------------------------------------------------
 
 Roles:-
+
         Ayush -->   Home Page
                     Navigation Bar
                     Footer
