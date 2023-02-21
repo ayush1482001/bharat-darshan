@@ -1,4 +1,4 @@
-< Tour India >
+ Tour India 
 -------------------
 
 Description:- Tour India is a tourism website where you can search for top tourist places, holiday     destinations or trending travel destination of India. 
@@ -18,6 +18,7 @@ Tech used:- HTML, CSS and Bootstrap.
 -------------------------------------------------------------------
 
 Roles:-
+
         Ayush -->   Home Page
                     Navigation Bar
                     Footer
